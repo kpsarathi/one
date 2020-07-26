@@ -1,0 +1,23 @@
+@import "_variables";
+
+/****************************************functions*******************/
+@mixin WHsize($widthVal, $heightVal){
+    width:$widthVal;
+    height:$heightVal;
+  }
+
+  @mixin fonts($size, $family) {
+    font-family: $family;
+    font-size: $size;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+
+
+body {
+   padding: 0px;
+   margin: 0px;
+}
